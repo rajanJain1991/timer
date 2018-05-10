@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:id="classicAgeVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timer.controller.ClassicAgeView.ClassicAgeViewController">
+   <children>
+      <Label fx:id="nameLabel" text="jain" />
+      <Label fx:id="ageTimerLabel" text="age" />
+   </children>
+</VBox>

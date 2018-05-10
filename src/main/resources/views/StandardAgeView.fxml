@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timer.controller.StandardAgeView.StandardAgeViewController">
+   <children>
+      <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="Kaal" />
+      <HBox>
+         <children>
+            <VBox>
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Age" />
+                  <Label fx:id="ageLabel" text="25">
+                     <VBox.margin>
+                        <Insets right="2.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Days">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="daysLabel" text="121">
+                     <VBox.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Sec" />
+                  <Label fx:id="secondLabel" text="234" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

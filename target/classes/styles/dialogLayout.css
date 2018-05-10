@@ -1,0 +1,67 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.dialog {
+    -fx-border-width: 0px !important;
+}
+
+.dialog .content-pane {
+    -fx-insets:0px !important;
+    -fx-padding: 0 !important;
+    -fx-border-width: 0px !important;
+}
+
+.dialog > * > .window-header > * > .window-title {
+    -fx-background-color: #85CB22;
+    -fx-padding: 0 3 0 0 !important;
+    -fx-alignment: center !important;
+    -fx-font-size: 16px !important;
+    -fx-text-fill: #FFFFFF !important;
+    -fx-font-weight: bold !important;
+
+}
+
+.dialog > * > .window-header {
+    -fx-padding: 0 2 0 10 !important;
+    -fx-background-radius: 0 0 0 0 !important;
+    -fx-background-color: #85CB22 !important;
+}
+
+.dialog > * > .window-header > .container{
+    -fx-padding: 0 0 0 0 !important;
+    -fx-background-color: #85CB22 !important;
+    -fx-background-radius: 0 0 0 0 !important;
+}
+
+.dialog .window-buttons {
+    -fx-min-width: 32px !important;
+    -fx-padding: 2 0 0 0 !important;
+}
+
+.dialog .window-close-button {
+    -fx-min-width: 32px !important;
+    -fx-min-height: 19px !important;
+    -fx-cursor: hand;
+}
+.dialog .window-close-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6, 0, 0, 0);
+}
+
+.dialog .window-close-button > .graphic {
+    -fx-shape: "" !important;
+    -fx-background-image: url("../images/close.png") !important;
+}
+
+.dialog .window-close-button > .graphic:hover {
+    -fx-background: transparent !important;
+    -fx-background-color: transparent !important;
+}
+
+.dialogStyle {
+    -fx-padding: 0;
+}
